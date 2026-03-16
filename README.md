@@ -35,7 +35,7 @@ GitHub Pages — zero cost, zero backend, zero server
 ## Run locally
 
 ```bash
-git clone https://github.com/YOURUSERNAME/epstify
+git clone https://github.com/pietrorenzii/epstify
 cd epstify
 open index.html
 ```
@@ -44,49 +44,6 @@ Or with a local server:
 ```bash
 npx serve .
 ```
-
----
-
-## Deploy on GitHub Pages
-
-1. Fork this repo
-2. **Settings → Pages → Source: main / root**
-3. Live at `https://YOURUSERNAME.github.io/epstify`
-
-### Custom domain (epstify.com)
-
-1. **Settings → Pages → Custom domain** → `epstify.com` → Save
-2. Add these DNS records on your registrar:
-
-```
-A     @    185.199.108.153
-A     @    185.199.109.153
-A     @    185.199.110.153
-A     @    185.199.111.153
-CNAME www  YOURUSERNAME.github.io
-```
-
-3. Wait 10-30 min → tick "Enforce HTTPS"
-
----
-
-## Project structure
-
-```
-epstify/
-├── index.html               ← entire app, single file
-├── README.md                ← this file
-├── LICENSE                  ← MIT
-├── COPY.md                  ← all copy, tweets, launch strategy
-├── CONTRIBUTING.md          ← how to contribute
-├── CNAME                    ← custom domain for GitHub Pages
-├── .gitignore               ← standard ignores
-└── .github/
-    └── workflows/
-        └── deploy.yml       ← auto-deploy to GitHub Pages
-```
-
----
 
 ## Roadmap
 
