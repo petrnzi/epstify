@@ -75,7 +75,7 @@ Not affiliated with any government agency or individual.
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=pietrorenzii/epstify&type=Date)](https://star-history.com/#petrnzi/epstify&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=petrnzi/epstify&type=Date)](https://star-history.com/#petrnzi/epstify&Date)
 
 ---
 
